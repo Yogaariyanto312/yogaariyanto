@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+smkyadika3jakarta.e-ujian.id	TRUE	/	FALSE	1999999999	ci_session	822b1dc628806a4feb85004fe42f287d4d85b75c
+smkyadika3jakarta.e-ujian.id	TRUE	/	FALSE	1999999999	__cflb	02DiuFhupgpTpx6kXzNGx2NVKXhB1SYGHMiPeBDWaPWrx
+smkyadika3jakarta.e-ujian.id	TRUE	/	FALSE	1999999999	SameSite	None
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz By  Yogaariyanto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
+    <!-- FontAweome CDN Link untuk Ikon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- tombol starr quizzzzznya -->
+    <div class="start_btn"><button>Mulai</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Beberapa Aturan Kuis ini</span></div>
+        <div class="info-list">
+            <div class="info">1. Anda hanya akan memiliki <span>15 detik</span> per setiap pertanyaan.</div>
+            <div class="info">2. Setelah Anda memilih jawaban Anda, itu tidak dapat dibatalkan.</div>
+            <div class="info">3. Anda tidak dapat memilih opsi apa pun setelah waktu berbunyi.</div>
+            <div class="info">4. Anda tidak dapat keluar dari Kuis saat bermain.</div>
+            <div class="info">5. Anda akan mendapatkan poin berdasarkan jawaban Anda yang benar.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Keluar</button>
+            <button class="restart">Gaskeun</button>
+        </div>
+    </div>
+
+    <!--Backnya-->
+
+    <div class="buttons_back">
+        <a href="/game/game.html" class="tbl-back">back to home</a></p></div>
+    </div>
+</div>
+
+    <!-- Quiz Box nya -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz Simple Doang Ini Gaes hehe</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Di sini saya telah menyisipkan pertanyaan dari JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Di sini saya telah memasukkan opsi dari JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer kotak kuis -->
+        <footer>
+            <div class="total_que">
+                <!-- Di sini saya telah menyisipkan Nomor Jumlah Pertanyaan dari JavaScript -->
+            </div>
+            <button class="next_btn">Berikutnya</button>
+        </footer>
+    </div>
+
+    <!-- Kotak Hasil -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Anda telah menyelesaikan kuis!</div>
+        <div class="score_text">
+            <!-- Di sini saya telah menyisipkan Hasil Skor dari JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart</button>
+            <button class="quit">Keluar</button>
+        </div>
+    </div>
+
+    <!-- Di dalam file JavaScript ini saya hanya menyisipkan Pertanyaan dan Opsi -->
+    <script src="js/questions.js"></script>
+
+    <!-- Di dalam file JavaScript ini saya telah mengkodekan semua Kode Kuis -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
