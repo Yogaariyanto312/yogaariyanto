@@ -67,7 +67,7 @@ nav ul li a:hover {
 
 section {
   margin: auto;
-  display: flex;
+  display: grid;
   margin-bottom: 50px;
 }
 
