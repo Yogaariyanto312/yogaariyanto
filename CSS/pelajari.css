@@ -33,8 +33,7 @@ nav {
     margin: auto;
     display: flex;
     line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
+    position: static;
     top: 0;
     background: #FFFFFF;
     z-index: 1;
@@ -105,4 +104,20 @@ a.tbl-biru:hover {
     background: #dedede;
     margin-top: 350px;
     border-radius: 15px
+}
+
+.blog-1{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.isiblog-1{
+   padding: 20px;
+   margin: 1px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: normal;
+   font-weight: 900;
 }
